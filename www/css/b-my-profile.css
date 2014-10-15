@@ -1,0 +1,216 @@
+@font-face {
+	font-family: 'MuseoSansCyrl-700';
+	src: url('../fonts/MuseoSansCyrl-700.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+ 
+.my-profile{
+	height: 180px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Arial;
+	font-weight: 400;
+}
+.my-profile-foto{
+	float: left;
+	width: 180px;
+	height: 180px;
+	border-radius: 3px 0 0 3px;
+
+}
+.my-profile-right{
+	overflow: hidden;
+	height: 180px;	
+/*	*/
+}
+.my-profile-top{
+	padding: 16px 20px 20px 15px;
+	background-color: #fff;
+	border-radius: 0 3px 0 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.my-profile h1{
+	font-family: 'MuseoSansCyrl-700';
+	font-size: 24px;
+	margin: 0px;
+}
+.my-profile-nicname{
+	font-size: 12px;
+	color: #999;
+	margin-top: 5px;
+}
+.my-profile-nav{
+	height: 27px;
+	margin-top: 15px;
+}
+.my-profile-nav li{
+	float: left;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid #f5f5f5;
+}
+.my-profile-nav a{
+	color: #bbb;
+	display: block;
+	overflow: hidden;
+}
+.my-profile-nav li:first-child{
+	border: none;
+	padding-left: 0px;
+}
+.my-profile-nav-number{
+	display: block;
+	float: left;
+	font-size: 15px;
+	font-weight: 900;
+	line-height: 15px;
+	padding-top: 1px;
+}
+.my-profile-nav-description{
+	display: block;
+	font-size: 11px;
+	line-height: 11px;
+	font-weight: 400;
+}
+.my-profile-icon1{
+	background: url(../i/icon-profile.png) 9px 8px no-repeat;
+}
+.my-profile-icon2{
+	background: url(../i/icon-rss.png) 9px 8px no-repeat;
+}
+.my-profile-icon3{
+	background: url(../i/icon-pen.png) 8px 8px no-repeat;
+}
+.my-profile-icon4{
+	background: url(../i/icon-foto.png) 8px 8px no-repeat;
+}
+.my-profile-icon5{
+	background: url(../i/icon-yes.png) 8px 7px no-repeat;
+}
+.my-profile-icon6{
+	background: url(../i/icon-fire.png) 8px 7px no-repeat;
+}
+.my-profile-icon7{
+	background: url(../i/icon-flag.png) 8px 8px no-repeat;
+}
+.my-profile-icon8{
+	background: url(../i/icon-target.png) 8px 8px no-repeat;
+}
+
+.my-profile-nav-icon{
+	display: block;
+	float: left;
+	width: 27px;
+	height: 27px;
+	background-color: #ddd;
+	border-radius: 50%;
+	margin-right: 7px;
+	
+}
+.my-profile-nav .active .my-profile-nav-icon{
+	background-color: #c31313;
+}
+.my-profile-nav .active a{
+	color: #c31313;
+}
+.my-profile-nav li.active:hover   a{
+	color: #c31313;
+}
+.my-profile-nav li:hover a{
+	color: #c31313;
+}
+.my-profile-nav li:hover .my-profile-nav-icon{
+	background-color: #c31313;
+}
+.my-profile-nav li.active:hover .my-profile-nav-icon{
+	background-color: #c31313;
+}
+.my-profile-bottom{
+	display: block;
+	position: relative;
+	padding-left: 15px;
+	line-height: 60px;
+	width: 100%;
+	height: 61px;
+	background-color: #f5f5f5;
+	border-radius: 0 0 3px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.my-profile-bottom a{
+	margin-right: 15px;
+}
+.my-profile-bottom a.active{
+	color: #c31313;
+}
+.my-profile-bottom-a-exit{
+	float: right;
+	color: #bbbbbb;
+}
+.my-profile-social{
+	float: right;
+	position: relative;
+	width: 35px;
+}
+.my-profile-social-a{
+	background: url(../i/sprite-social.png) no-repeat;
+}
+.my-profile-social-f{
+	float: right;
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	background-position: 0 0;
+}
+.my-profile-social-vk{
+	float: right;
+	width: 12px;
+	height: 12px;
+	background-position: -13px 0;
+}
+.my-profile-social-f:hover {background-position: 0 -13px;}
+.my-profile-social-vk:hover {background-position: -13px -13px;}
+
+.my-profile-hotel-stars {background: url(../i/icon-hotel-stars.png) 0 0 no-repeat; height: 8px; width: 44px; display: inline-block; margin-right: 6px;}
+.my-profile-hotel-stars.star5 {width: 44px;}
+.my-profile-hotel-stars.star4 {width: 36px;}
+.my-profile-hotel-stars.star3 {width: 27px;}
+.my-profile-hotel-stars.star2 {width: 18px;}
+.my-profile-hotel-stars.star1 {width: 9px;}
+
+.my-profile-bottom-pm-btn {background: #2b7bde;text-decoration: none; height: 31px; margin-right: 15px; border-radius: 3px; line-height: 31px; padding: 0 10px 0 0;color: #fff; text-transform: uppercase; font-size: 10px;font-weight: bold; display: inline-block;}
+.my-profile-bottom-pm-btn:hover {text-decoration: none;}
+.my-profile-bottom-pm-btn span {border-radius: 3px 0 0 3px; width: 27px; height: 31px; float: left; margin-right: 10px; background: #2871cc url(../i/sprite-blue.png) 10px 11px no-repeat; }
+
+.my-profile-bottom-feed-btn {background: #2b7bde;text-decoration: none; height: 31px; margin-right: 15px; border-radius: 3px; line-height: 31px; padding: 0 10px 0 0;color: #fff; text-transform: uppercase; font-size: 10px;font-weight: bold; display: inline-block;}
+.my-profile-bottom-feed-btn:hover {text-decoration: none;}
+.my-profile-bottom-feed-btn span {border-radius: 3px 0 0 3px; width: 27px; height: 31px; float: left; margin-right: 10px; background: #2871cc url(../i/sprite-blue.png) 10px -8px no-repeat; }
+
+.my-profile-bottom-feed-btn.unsubscribe {background: #ccc;text-decoration: none; height: 31px; margin-right: 15px; border-radius: 3px; line-height: 31px; padding: 0 10px 0 0;color: #fff; text-transform: uppercase; font-size: 10px;font-weight: bold; display: inline-block;}
+.my-profile-bottom-feed-btn.unsubscribe span {border-radius: 3px 0 0 3px; width: 27px; height: 31px; float: left; margin-right: 10px; background: #ddd url(../i/sprite-gray.png) 10px 11px no-repeat; }
+
+.my-profile-bottom-message-btn {background: #2b7bde;text-decoration: none; height: 31px; border-radius: 3px; line-height: 31px; padding: 0 10px 0 0;color: #fff; text-transform: uppercase; font-size: 10px;font-weight: bold; display: inline-block;}
+.my-profile-bottom-message-btn:hover {text-decoration: none;}
+.my-profile-bottom-message-btn span {border-radius: 3px 0 0 3px; width: 27px; height: 31px; float: left; margin-right: 10px; background: #2871cc url(../i/sprite-blue.png) 10px 10px no-repeat; }
+.my-profile-bottom-notme {float: right;}
+.my-profile-bottom-notme-a {background: url(../i/sprite-gray.png) 0 -136px no-repeat; padding: 0 0 0 13px; color: #bbb; font-size: 12px; text-decoration: none;}
+.my-profile-bottom-notme-a:hover {text-decoration: underline;}
+
+.hotel-profile {width: 160px;}
+.hotel-profile-ava-wrap { overflow: hidden;}
+.hotel-profile-ava-wrap img {border-radius: 3px 3px 0 0;  height: 160px;   width: 160px;}
+.hotel-profile-info {padding: 0 15px; background: #fff; border-radius: 0 0 3px 3px;}
+.hotel-profile-info-top {position: relative; overflow: hidden; padding: 8px 0 9px 0;}
+.hotel-profile-info-top:after {content: "";background: url(../i/shader-rtl-fff.png) 100% 0 repeat-y; width: 29px; height: 100%; position: absolute; right: -15px; top:0;}
+.hotel-profile-info-mid {border-top: 1px solid #e5e5e5;height: 36px; line-height: 36px;}
+.hotel-profile-info-bot {padding: 7px 0 10px 0;border-top: 1px solid #e5e5e5;}
+.hotel-profile-info-ttl {white-space: nowrap;font-family: 'MuseoSansCyrl-700'; font-size: 15px; line-height: 18px;}
+.hotel-profile-info-loc {white-space: nowrap; color: #999; font-size: 11px; line-height: 18px;}
+.hotel-profile-info-rss {background: url(../i/sprite-blue.png) 0 -16px no-repeat; padding: 0 0 0 12px; font-size: 11px;}
+.hotel-profile-info-mes {background: url(../i/sprite-blue.png) 0 2px no-repeat; padding: 0 0 0 12px; font-size: 11px;}
+.hotel-profile-info-bot-a {font-size: 11px; line-height: 18px;}

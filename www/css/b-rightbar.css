@@ -1,0 +1,13 @@
+.rightbar {}
+.rightbar-pics {overflow:hidden;margin-left:-2px;}
+.rightbar-pics-a {float:left;margin:0 0 2px 2px;}
+.rightbar-white {background:#fff;border-radius:4px;padding:12px 15px;}
+.rightbar-list-tbl {width:100%;}
+.rightbar-list-td {vertical-align:top;color:#999;font-size:11px;line-height:16px;padding:2px 0 4px;}
+.rightbar-list-td:first-child {width:1%;padding:2px 8px 4px 0;}
+.rightbar-list-num {background:#f5f5f5;width:18px;height:18px;border-radius:10px;text-align:center;font-size:9px;line-height:18px;}
+.rightbar-list-a {font-size:12px;display:block;}
+.rightbar-white-more {border-top:solid 1px #ebebeb;padding-top:12px;margin-top:8px;}
+.rightbar-white-more-a {background:url(../i/rightbar-white-more.png) no-repeat 0 0;padding:2px 0 2px 26px;}
+.rightbar-list-td-pic {width:1%;padding:2px 8px 4px 0;}
+.rightbar-white_users .rightbar-list-td:first-child {vertical-align:middle;}

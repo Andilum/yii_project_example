@@ -1,0 +1,86 @@
+.form-chat
+{
+    width: 500px;
+    margin: 0 auto;
+
+}
+.form-chat form .row
+{
+    margin-bottom: 10px;
+}
+
+.form-chat form .row>*
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-chat form .row.description>*
+{
+    display: block;
+}
+.form-chat form .row.description>label
+{
+    margin-bottom: 7px;
+}
+
+.form-chat form .row.description>textarea
+{
+    width: 100%;
+    height: 50px;
+    resize: vertical;
+}
+
+.form-chat form .row.title>label
+{
+    width: 52px;
+}
+
+
+.items-chats-hotel .item-chat
+{
+    margin-bottom: 10px;
+    position: relative;
+     border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+    height: 70px;
+}
+.items-chats-hotel .item-chat>*
+{
+    padding: 5px;
+}
+.items-chats-hotel .item-chat>.c1
+{
+    float: left;
+    width:320px; 
+}
+
+.items-chats-hotel .item-chat>.c2
+{
+    margin-left: 320px;
+}
+
+.items-chats-hotel .item-chat .title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.items-chats-hotel .item-chat>.c2 .msg
+{
+    margin-bottom: 5px;
+}
+.items-chats-hotel .item-chat>.c2 .info
+{
+    height: 15px;
+}
+.items-chats-hotel .item-chat>.c2 .info time
+{
+    float: right;
+}
+
+
+.chat-hotel .b-chat-item.no-read
+{
+    background-color: white !important;
+}

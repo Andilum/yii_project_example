@@ -1,0 +1,73 @@
+.userphoto {
+	display: block;
+}
+.userphoto-ttl {
+	display: block;
+	height: 43px;
+	background-color: #fff;
+	border-bottom: 1px solid #ebebeb;
+	padding: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font: bold 15px/15px Arial, sans-serif;
+	border-radius: 4px 4px 0 0;
+}
+.userphoto-counter {
+	color: #ddd;
+}
+.userphoto-search {
+	padding: 15px;
+	background: #ebebeb;
+}
+.userphoto-search:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.userphoto-search-input {
+	margin-right: 10px;
+	padding: 6px;
+	width: 370px;
+	height: 18px;
+	color: #999;
+	border: 0;
+	border-radius: 4px;
+	float: left;
+}
+.userphoto-search-button {
+	padding: 0 12px;
+	height: 30px;
+	color: #fff;
+	font: bold 10px 'Arial','sans-serif';
+	text-transform: uppercase;
+	border: 0;
+	border-radius: 4px;
+	background: #2b7bde;
+	float: left;
+}
+.userphoto-layout {
+	padding: 15px;
+	background: #fff;
+}
+.userphoto-list {
+	margin: -3px 0 0 -3px;
+}
+.userphoto-list:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.userphoto-list-item {
+	margin: 3px 0 0 3px;
+	float: left;
+}
+.userphoto-more {
+	padding: 15px;
+	background: #fff;
+	border-radius: 4px;
+}
+.userphoto-more img {
+	vertical-align: middle;
+	margin-right: 10px;
+}

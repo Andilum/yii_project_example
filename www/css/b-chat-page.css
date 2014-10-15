@@ -1,0 +1,31 @@
+body {
+    height: 100%;
+    overflow-y: hidden;
+}
+.content {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 70px 0 0;
+}
+
+.page-wrap {
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+
+.rightbar {
+    position: fixed !important;
+    width: 205px !important;
+}
+
+
+.chat-bottom .b-feedback-smile-select {
+    bottom: 100%;
+    left: auto;
+    right: 0;
+    top: auto;
+    width: 273px;
+}

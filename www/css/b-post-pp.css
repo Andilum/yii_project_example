@@ -1,0 +1,34 @@
+.pp-custom-scroll {height: 439px;}
+.post-pp-l {width: 555px; height: 560px; position: relative; overflow: hidden; float: left; background: #ebebeb; border-radius: 3px 0 0 3px;padding: 15px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.post-pp-r {width: 405px; float: left; border-radius: 0 3px 3px 0; background: #fff; }
+	.post-pp-r-head {border-bottom: 1px solid #ebebeb; height: 60px; font-size: 12px; line-height: 16px; padding: 13px 15px 15px 15px; position: relative;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+	.post-pp-close {background: url(../i/icon-close-red.png) 0 0 no-repeat; width: 14px; height: 14px; position: absolute; top: 23px; right: 15px; display: block;}
+	.post-pp-userpic-wrap {float: left; padding-top: 2px; display: block; text-decoration: none;}
+	.post-pp-userpic-wrap img {border-radius: 50%;}
+	.post-pp-user-details {overflow: hidden; padding-left: 10px;}
+	.post-pp-time {color: #bbb; background: url(../i/comment-top-where-phone.png) 0 50% no-repeat; padding-left: 10px; margin-left: 5px;}
+	.post-pp-loc {color: #bbb;}
+.post-pp .comment-item-in {padding: 0 22px 0 15px;}
+.post-pp .comment-item {margin-bottom: 0;}
+.post-pp .comment-txt {border-top: 0;}
+.post-pp .comment-form {background: #d0d0d0;}
+.post-pp .comment-form-area {width: 260px;}
+
+.post-pp-gallery {}
+.post-pp-gallery-i {display: none; text-align: center; white-space: nowrap; height: 530px;}
+.post-pp-gallery-i:first-child {display: block}
+.post-pp-gallery-i:before {content: " "; display: inline-block; height: 100%; vertical-align: middle;}
+.post-pp-gallery-i img {vertical-align: middle; max-height: 100%; max-width: 100%;}
+
+.post-pp-gallery-nav-a {background: url(../i/post-pp-gallery-nav.png) no-repeat; height: 100%; width: 55px; position: absolute; top: 0;}
+.post-pp-gallery-back {left: 15px; background-position: 20px 50%;}
+.post-pp-gallery-next {right: 15px; background-position: -15px 50%;}
+
+.preloader {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+}

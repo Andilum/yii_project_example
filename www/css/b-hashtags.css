@@ -1,0 +1,110 @@
+.hashtags {
+	display: block;
+}
+.hashtags-ttl {
+	display: block;
+	height: 43px;
+	background-color: #fff;
+	border-bottom: 1px solid #ebebeb;
+	padding: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font: bold 15px/15px Arial, sans-serif;
+	border-radius: 4px 4px 0 0;
+}
+.hashtags-search {
+	padding: 15px;
+	background: #ebebeb;
+}
+.hashtags-search:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.hashtags-search-input {
+	margin-right: 10px;
+	padding: 6px;
+	width: 370px;
+	height: 18px;
+	color: #999;
+	border: 0;
+	border-radius: 4px;
+	float: left;
+}
+.hashtags-search-button {
+	padding: 0 12px;
+	height: 30px;
+	color: #fff;
+	font: bold 10px 'Arial','sans-serif';
+	text-transform: uppercase;
+	border: 0;
+	border-radius: 4px;
+	background: #2b7bde;
+	float: left;
+}
+.hashtags-table {
+}
+.hashtags-table-row {
+	padding: 0 15px;
+	line-height: 37px;
+	background: #fff;
+}
+.hashtags-table-row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.hashtags-table-row_ttl {
+	background: #f5f5f5;
+}
+.hashtags-table-cell {
+	width: 180px;
+	border-bottom: 1px solid #f5f5f5;
+	float: left;
+}
+.hashtags-table-cell + .hashtags-table-cell {
+	width: 115px;
+	text-align: right;
+}
+.hashtags-table-sorting {
+	color: #bbb;
+}
+.hashtags-table-sorting:hover {
+	text-decoration: none;
+}
+.hashtags-table-sorting_active,
+.hashtags-table-sorting_active_desc {
+	color: #c31313;
+}
+.hashtags-table-sorting_active:after,
+.hashtags-table-sorting_active_desc:after {
+	content: '';
+	margin-left: 5px;
+	display: inline-block;
+	border: 2px solid transparent;
+}
+.hashtags-table-sorting_active:after {
+    border-bottom-color: #c31313;
+    margin-bottom: 3px;
+}
+.hashtags-table-sorting_active_desc:after {
+    border-top-color: #c31313;
+    margin-bottom: 1px;
+}
+.hashtags-table-link:hover {
+	text-decoration: none;
+}
+.hashtags-table-row_popular {
+	background: #f5f5f5;
+	border-radius: 0 0 4px 4px;
+}
+.hashtags-more {
+	padding: 15px;
+	background: #fff;
+	border-radius: 4px;
+}
+.hashtags-more img {
+	vertical-align: middle;
+	margin-right: 10px;
+}

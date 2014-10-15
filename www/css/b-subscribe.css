@@ -1,0 +1,22 @@
+.subscribe {}
+.subscribe-ttl {background-color: #fff;border-bottom: 1px solid #ebebeb;border-radius: 4px 4px 0px 0px;display: block;font: 700 15px/15px "Arial", sans-serif;height: 43px;padding: 15px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.subscribe-head {background: #ebebeb;height: 37px;line-height: 37px;}
+.subscribe-head ul {overflow: hidden;padding-left: 15px;}
+.subscribe-head li {color: #bbb;float: left;padding-right: 11px;}
+.subscribe-head-a {color: #666;}
+.subscribe-head-a.current {color: #c31313;}
+.subscribe-body {background: #fff; border-radius: 0 0 3px 3px; }
+.subscribe-tab {}
+.subscribe-item {height: 54px;padding: 0 15px;}
+.subscribe-item + .subscribe-item {border-top: 1px solid #f5f5f5;}
+.subscribe-item-ttl {overflow: hidden; float: left;}
+.subscribe-item-cell {display: table-cell; vertical-align: middle; height: 54px; color: #bbb; padding-right: 7px;}
+.subscribe-item-a {}
+.subscribe-item-tools {float: right; line-height: 54px;}
+.subscribe-status {display: inline-block;}
+.subscribe-tool {display: inline-block; padding-left: 7px;}
+.subscribe-turn-on {background: url(../i/sprite-blue.png) 0 -15px no-repeat; padding-left: 13px;}
+.subscribe-on {background: url(../i/sprite-gray.png) 0 4px no-repeat; padding-left: 13px; padding-right: 4px;}
+.subscribe-turn-off {}
+.subscribe-msg {background: url(../i/sprite-blue.png) 0 3px no-repeat; padding-left: 11px;}
+.subscribe-bottom {height: 37px; line-height: 37px; color: #000; border-radius: 0 0 3px 3px; background: #ebebeb; padding: 0 15px;}

@@ -1,0 +1,67 @@
+.side-menu {position: relative;}
+.side-menu-holder {position: absolute; top: -4px;}
+.side-menu-mover {position: relative;}
+.side-menu .profile-info {display: none; margin-bottom: 15px;}
+.side-menu_fixed .side-menu-mover {position: fixed; top: 90px;}
+.side-menu_fixed .profile-info {display: block;}
+.leftbar-ttl {font:bold 10px/18px Arial,sans-serif;text-transform:uppercase;padding:0 0 10px;}
+.leftbar-ttl-a {color:#000;}
+.leftbar-ul {position:relative;left:-5px;padding-bottom:7px;}
+.leftmenu-li {font-size:12px;margin-bottom:1px;padding:0 0 0 5px;position:relative;}
+.leftmenu-li:hover, .leftmenu-li-hotel-act {background:url(../i/leftmenu-li-white.png) repeat 0 0;border-radius:4px;}
+.leftmenu-li:hover .leftmenu-tail {display: block;}
+.leftmenu-li-a {color:#666;padding:3px 0 1px 17px;background:url(../i/sprite-gray.png) no-repeat;display:block;height:19px;}
+.leftmenu-li-a:hover {text-decoration:none;}
+.leftmenu-li-feed {background-position:0 7px;}
+.leftmenu-li-chat {background-position:0 -13px;}
+.leftmenu-li-theme {background-position:0 -33px;}
+.leftmenu-li-pics {background-position:0 -53px;}
+.leftmenu-li-marks {background-position:0 -72px;}
+.leftmenu-li-guests {background-position:0 -92px;}
+.leftmenu-li-place {background-position:0 -114px;}
+.leftmenu-li-find {background-position:0 -134px;}
+.leftmenu-li-hotel {background-position:0 -153px;}
+.leftmenu-li-lang {background-position:0 -172px;}
+.leftmenu-li-apple {background-position:0 -194px;}
+.leftmenu-li-andr {background-position:0 -211px;}
+.leftmenu-li-pen {background-position:0 -233px;}
+.leftmenu-li-info {background-position:0 -253px;}
+.leftmenu-li-red .leftmenu-li-a {background-image:url(../i/sprite-red.png);color:#c31313;}
+.leftmenu-li-green .leftmenu-li-a {background-image:url(../i/sprite-green.png);color:#059805;}
+.leftmenu-hr {border-bottom:solid 1px #e5e5e5;height:1px;padding-top:1px;margin-bottom:11px;}
+.leftmenu-del {display:none;background:url(../i/leftmenu-del.png) no-repeat 0 0;width:8px;height:8px;position:absolute;top:7px;right:5px;}
+.leftmenu-li-hotel-act .leftmenu-del {display:block;}
+.left-scroll {position:fixed;top:90px;width:160px;}
+.content_profile-hotel .left-scroll {top:185px;}
+.leftmenu-tail {display:none;background:url(../i/leftmenu-tail.png) no-repeat 0 0;width:17px;height:23px;position:absolute;top:0px;right:0px;}
+.leftmenu-li-hotel-act .leftmenu-tail {display:block;}
+.leftbar-ttl-a-spoiler {background: url(../i/icon-arr-down.png) 100% 50% no-repeat; padding-right: 6px;}
+.leftmenu-options {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    -moz-box-shadow: 0px 0 5px #ccc;
+    -webkit-box-shadow: 0px 0 5px #ccc;
+    box-shadow: 0px 0px 5px #999;
+    z-index: 61;
+    padding: 5px;
+}
+.leftmenu-option-li {
+    font-size: 12px;
+}
+.leftmenu-option-li-a {
+    color: #666;
+    padding: 3px 0 1px 13px;
+    display: block;
+    white-space: nowrap;
+}
+.leftmenu-option-active {
+    color: #c31313;
+    /*background: url(/i/ic9-red.png) left no-repeat;*/
+    background: url(../i/sprite-red.png) 0 -72px no-repeat;
+    cursor: default;
+}
+.leftmenu-option-active:hover {
+    text-decoration: none;
+}

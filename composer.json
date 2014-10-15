@@ -1,0 +1,40 @@
+{
+    "name": "bestxp/yii-skeleton",
+    "description": "yii example",
+    "license": "proprietary",
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "pkg.ls1.ru"
+        },
+        {
+            "type": "vcs",
+            "url": "https://bitbucket.org/bestxp/eclientscript.git"
+        }
+    ],
+
+    "require": {
+        "zhuravljov/yii2-debug": "dev-master",
+        "bestxp/EClientScript": "dev-master",
+        "yiisoft/yii": "dev-master",
+        "lightsoft/oauth": "dev-master",
+        "lightsoft/rest": "dev-master",
+        "lightsoft/travelpassport-rest": "dev-master",
+        "lightsoft/translate": "dev-master",
+        "richardkmiller/pest": "dev-master",
+        "2amigos/yiiwheels": "1.0.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/dbunit": ">=1.2",
+        "phpunit/php-invoker": "*",
+        "phpunit/phpunit-selenium": ">=1.2",
+        "phpunit/phpunit-story": "*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php checkRequirements.php"
+        ]
+    }
+}
