@@ -1,0 +1,1 @@
+Example of code in Yii-project
